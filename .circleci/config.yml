@@ -9,6 +9,7 @@ jobs:
 
       - run:
           name: Install Solidity
+          no_output_timeout: 30m
           command: |
             brew update
             brew upgrade
@@ -29,6 +30,7 @@ jobs:
 
       - run:
           name: Install Solidity 0.7
+          no_output_timeout: 30m
           command: |
             brew update
             #brew tap ethereum/ethereum # Actually we should use the rule from the pull request
