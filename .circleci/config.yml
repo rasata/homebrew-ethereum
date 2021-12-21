@@ -13,7 +13,7 @@ jobs:
             brew unlink python@2
             brew update
             brew upgrade
-            #brew tap ethereum/ethereum # Acutally we should use the rule from the pull request
+            #brew tap ethereum/ethereum # Actually we should use the rule from the pull request
             brew install ./solidity.rb
 
       - run:
@@ -32,7 +32,7 @@ jobs:
           name: Install Solidity 0.7
           command: |
             brew update
-            #brew tap ethereum/ethereum # Acutally we should use the rule from the pull request
+            #brew tap ethereum/ethereum # Actually we should use the rule from the pull request
             brew install ./solidity@7.rb
 
       - run:
@@ -51,7 +51,7 @@ jobs:
           name: Install Solidity 0.6
           command: |
             brew update
-            #brew tap ethereum/ethereum # Acutally we should use the rule from the pull request
+            #brew tap ethereum/ethereum # Actually we should use the rule from the pull request
             brew install ./solidity@6.rb
 
       - run:
@@ -70,7 +70,7 @@ jobs:
           name: Install Solidity 0.5
           command: |
             brew update
-            #brew tap ethereum/ethereum # Acutally we should use the rule from the pull request
+            #brew tap ethereum/ethereum # Actually we should use the rule from the pull request
             brew install ./solidity@5.rb
 
       - run:
@@ -89,7 +89,7 @@ jobs:
           name: Install Solidity 0.4
           command: |
             brew update
-            #brew tap ethereum/ethereum # Acutally we should use the rule from the pull request
+            #brew tap ethereum/ethereum # Actually we should use the rule from the pull request
             brew install ./solidity@4.rb
 
       - run:
